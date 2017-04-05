@@ -10,6 +10,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
+import com.neu.viking.R;
+
 public class FirstActivity extends AppCompatActivity {
 
     @Override
