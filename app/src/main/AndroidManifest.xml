@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.neu.viking.androidtest">
+          package="com.neu.viking.chapterone">
 
     <application
         android:allowBackup="true"
@@ -9,11 +9,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".FirstActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-
-                <category android:name="android.intent.category.LAUNCHER"/>
-            </intent-filter>
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN"/>-->
+                <!--<category android:name="android.intent.category.LAUNCHER"/>-->
+            <!--</intent-filter>-->
         </activity>
         <activity android:name=".SecondActivity">
             <intent-filter>
@@ -26,24 +25,29 @@
         <activity android:name=".ThirdActivity">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW"/>
-
                 <category android:name="android.intent.category.DEFAULT"/>
-
                 <data android:scheme="http"/>
             </intent-filter>
         </activity>
-        <activity android:name=".LifeCycleTestActivity"
-                  android:label="This is LifeCycleTestActivity">
+        <activity
+            android:name=".LifeCycleTestActivity"
+            android:label="This is LifeCycleTestActivity">
             <!--<intent-filter>-->
-                <!--<action android:name="android.intent.action.MAIN"/>-->
-
-                <!--<category android:name="android.intent.category.LAUNCHER"/>-->
+            <!--<action android:name="android.intent.action.MAIN"/>-->
+            <!--<category android:name="android.intent.category.LAUNCHER"/>-->
             <!--</intent-filter>-->
         </activity>
         <activity android:name=".NormalActivity">
         </activity>
-        <activity android:name=".DialogActivity"
+        <activity
+            android:name=".DialogActivity"
             android:theme="@style/Theme.AppCompat.Dialog">
+        </activity>
+        <activity android:name="com.neu.viking.chaptertwo.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
         </activity>
     </application>
 

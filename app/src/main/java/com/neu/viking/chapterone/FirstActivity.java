@@ -1,7 +1,6 @@
-package com.neu.viking.androidtest;
+package com.neu.viking.chapterone;
 
 import android.content.Intent;
-import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;

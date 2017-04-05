@@ -1,4 +1,4 @@
-package com.neu.viking.androidtest;
+package com.neu.viking.chapterone;
 
 import android.app.Activity;
 
