@@ -13,13 +13,13 @@
         android:text="This is Text View"/>
     <Button
         android:id="@+id/button"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAllCaps="false"
         android:text="Button"/>
     <EditText
         android:id="@+id/edit_text"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hint="Type something here"
         android:maxLines="2"/>
