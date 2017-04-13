@@ -39,7 +39,6 @@ public class FruitAdapter extends ArrayAdapter<Fruit> {
         }*/
         //base
         //View view = LayoutInflater.from(getContext()).inflate(resourceId, parent, false);
-        /*second optimization*/
         View view;
         ViewHolder viewHolder;
         if (null == convertView) {
@@ -54,6 +53,7 @@ public class FruitAdapter extends ArrayAdapter<Fruit> {
         }
         viewHolder.fruitImage.setImageResource(fruit.getImageId());
         viewHolder.fruitName.setText(fruit.getName());
+        /*second optimization*/
         //ImageView imageView = (ImageView)view.findViewById(R.id.fruit_image);
         //TextView textView = (TextView)view.findViewById(R.id.fruit_name);
         //imageView.setImageResource(fruit.getImageId());

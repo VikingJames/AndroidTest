@@ -50,11 +50,14 @@
         <activity android:name=".chaptertwo.MainActivity">
         </activity>
         <activity android:name=".chaptertwo.ListActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-
-                <category android:name="android.intent.category.LAUNCHER"/>
-            </intent-filter>
+        </activity>
+        <activity android:name=".chaptertwo.RecyclerViewActivity">
+        </activity>
+        <activity android:name=".chaptertwo.MsgActivity">
+             <intent-filter>
+             <action android:name="android.intent.action.MAIN"/>
+             <category android:name="android.intent.category.LAUNCHER"/>
+             </intent-filter>
         </activity>
     </application>
 
